@@ -126,8 +126,8 @@ if uploaded_file is not None:
         # 분류 결과에 따른 콘텐츠 선택
         data = content_data.get(prediction, {
             'images': ["https://via.placeholder.com/300"] * 3,
-            'videos': ["https://www.youtube.com/watch?v=3JZ_D3ELwOQ"] * 3,
-            'texts': ["기본 텍스트"] * 3
+            'videos': ["https://youtu.be/w7rMeOWeCrI?feature=shared"] * 3,
+            'texts': ["단열을 가장 효과적으로 만든 예는 패시브 하우스가 있다"] * 3
         })
         display_right_content(prediction, data)
 
