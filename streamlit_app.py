@@ -78,6 +78,8 @@ st.markdown("""
 # 분류에 따라 다른 콘텐츠 관리
 labels = ["Label 1", "Label 2"]  # labels 배열 정의
 
+labels = ["Label 1", "Label 2"]  # labels 배열 정의
+
 content_data = {
     labels[0]: {  # "Label 1"에 해당하는 데이터
         'videos': [
@@ -103,6 +105,7 @@ content_data = {
 
 # content_data 출력
 print(content_data)
+
 
 
 # 레이아웃 설정
