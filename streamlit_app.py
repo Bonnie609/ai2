@@ -76,36 +76,34 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # 분류에 따라 다른 콘텐츠 관리
+labels = ["Label 1", "Label 2"]  # labels 배열 정의
+
 content_data = {
-    labels[0]: {
-        
+    labels[0]: {  # "Label 1"에 해당하는 데이터
         'videos': [
             "https://youtu.be/kuu4GhDoggM?feature=shared",
-            
-             "https://youtu.be/nPMtCuNaEqE?feature=shared"
-            
-        ]
+            "https://youtu.be/nPMtCuNaEqE?feature=shared"
+        ],
         'texts': [
             "Label 1 단열을 높이는 방법은 열이 빠져나가기 쉬운 외벽과 지붕, 창문을 수시로 점검하는 것이다.",
-            
             "Label 2 최근에는 가정집에 이중창을 설치하여 공기층을 만들어 단열을 높이는 건축양상을 확인할 수 있다."
         ]
     },
-    labels[1]: {
-        
+    labels[1]: {  # "Label 2"에 해당하는 데이터
         'videos': [
-           "https://youtu.be/W1zgJNDL0eU?feature=shared",
+            "https://youtu.be/W1zgJNDL0eU?feature=shared",
             "https://youtu.be/w7rMeOWeCrI?feature=shared"
-            
         ],
         'texts': [
             "Label 2 벽돌과 벽돌 사이에는 스타이로폼이 있어 단열을 도와준다.",
             "Label 3 단열을 가장 효과적으로 만든 예는 패시브 하우스가 있다."
-            
         ]
     }
-   
 }
+
+# content_data 출력
+print(content_data)
+
 
 # 레이아웃 설정
 left_column, right_column = st.columns([1, 2])  # 왼쪽과 오른쪽의 비율 조정
