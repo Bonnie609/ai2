@@ -77,7 +77,7 @@ st.markdown("""
 
 # 분류에 따라 다른 콘텐츠 관리
 content_data = {
-    labels[1]: {
+    labels[0]: {
         
         'videos': [
             "https://youtu.be/kuu4GhDoggM?feature=shared"
@@ -87,7 +87,7 @@ content_data = {
             "Label 1 단열을 높이는 방법은 열이 빠져나가기 쉬운 외벽과 지붕, 창문을 수시로 점검하는 것이다."
         ]
     },
-    labels[2]: {
+    labels[1]: {
         
         'videos': [
            "https://youtu.be/nPMtCuNaEqE?feature=shared"
