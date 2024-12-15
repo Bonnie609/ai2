@@ -128,7 +128,7 @@ if uploaded_file is not None:
         data = content_data.get(prediction, {
             'images': ["https://via.placeholder.com/300"] * 3,
             'videos': ["https://youtu.be/w7rMeOWeCrI?feature=shared"] * 3,
-            'texts': ["단열을 가장 효과적으로 만든 예는 패시브 하우스가 있다"] * 3
+            'texts': ["기본택스트"] * 3
         })
         display_right_content(prediction, data)
 
