@@ -76,9 +76,9 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # 분류에 따라 다른 콘텐츠 관리
-labels = ["Label 1", "Label 2"]  # labels 배열 정의
+labels = ["Label 1 단열이 잘 된 집", "Label 2 단열이 안되는 집"]  # labels 배열 정의
 
-labels = ["Label 1", "Label 2"]  # labels 배열 정의
+labels = ["Label 1 단열이 잘 된 집", "Label 2 단열이 안되는 집"]  # labels 배열 정의
 
 content_data = {
     labels[0]: {  # "Label 1"에 해당하는 데이터
@@ -114,20 +114,4 @@ left_column, right_column = st.columns([1, 2])  # 왼쪽과 오른쪽의 비율 
 # 파일 업로드 컴포넌트 (jpg, png, jpeg, webp, tiff 지원)
 uploaded_file = st.file_uploader("이미지를 업로드하세요", type=["jpg", "png", "jpeg", "webp", "tiff"])
 
-if uploaded_file is not None:
-    image = Image.open(uploaded_file)
-    img = PILImage.create(uploaded_file)
-    prediction, _, probs = learner.predict(img)
-
-    with left_column:
-        display_left_content(image, prediction, probs, labels)
-
-    with right_column:
-        # 분류 결과에 따른 콘텐츠 선택
-        data = content_data.get(prediction, {
-            'images': ["https://via.placeholder.com/300"] * 3,
-            'videos': ["https://youtu.be/w7rMeOWeCrI?feature=shared"] * 3,
-            'texts': ["단열을 가장 효과적으로 만든 예는 패시브 하우스가 있다"] * 3
-        })
-        display_right_content(prediction, data)
 
