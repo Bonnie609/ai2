@@ -78,9 +78,7 @@ st.markdown("""
 # 분류에 따라 다른 콘텐츠 관리
 content_data = {
     labels[0]: {
-        'images': [
-            "https://www.google.com/imgres?q=%EB%8B%A8%EC%97%B4%EC%9D%B4%20%EC%9E%98%EB%90%98%EB%8A%94%20%EC%A7%91%20%EC%97%B4%ED%99%94%EC%83%81&imgurl=https%3A%2F%2Fmblogthumb-phinf.pstatic.net%2FMjAxOTEyMDFfMjg0%2FMDAxNTc1MjA1OTE0MjE3.bSJsEw_Rp2lBng7WOlZVNQ2vnlmawcnJXHeS8hZPOjsg.pY0xN-RscLAJmDg3bXnws_sDb-b07pCYCAcKWekbfysg.JPEG.jeffrey001%2FK-002.jpg%3Ftype%3Dw800&imgrefurl=https%3A%2F%2Fblog.naver.com%2Fjeffrey001%2F221724064842%3FviewType%3Dpc&docid=dXRk6JAiuuM6XM&tbnid=tzsNtSCGYvj58M&vet=12ahUKEwio5dzpj6qKAxX7sFYBHRP8AGsQM3oECBUQAA..i&w=500&h=380&hcb=2&ved=2ahUKEwio5dzpj6qKAxX7sFYBHRP8AGsQM3oECBUQAA"
-        ],
+        
         'videos': [
             "https://youtu.be/kuu4GhDoggM?feature=shared"
             
@@ -90,10 +88,7 @@ content_data = {
         ]
     },
     labels[1]: {
-        'images': [
-            "https://www.google.com/imgres?q=%EB%8B%A8%EC%97%B4%EC%9D%B4%20%EC%9E%98%EB%90%98%EB%8A%94%20%EC%A7%91%20%EC%97%B4%ED%99%94%EC%83%81&imgurl=https%3A%2F%2Fmblogthumb-phinf.pstatic.net%2FMjAxODAxMjJfMjgz%2FMDAxNTE2NTczMjI5ODk1.pr3_m4NeQz7Ss0mrYP_SDcIZM-diA7rfyGxxEz6b8cEg.Kzsfk_8pn-3kYgZp3Lhjcs1vWcRYS9d-zZjp74Qd8Lwg.JPEG.jeffrey001%2F%25EC%25B9%25A8%25EC%258B%25A42.jpg%3Ftype%3Dw420&imgrefurl=http%3A%2F%2Fblog.naver.com%2Fjeffrey001%2F221190392378&docid=icl3rqBBTqQRgM&tbnid=ZncAZsH3thYQ8M&vet=12ahUKEwiS3PLfkKqKAxUe5DQHHVY6H8w4ChAzegQIRRAA..i&w=420&h=315&hcb=2&ved=2ahUKEwiS3PLfkKqKAxUe5DQHHVY6H8w4ChAzegQIRRAA",
-            
-        ],
+        
         'videos': [
            "https://youtu.be/nPMtCuNaEqE?feature=shared"
         ],
