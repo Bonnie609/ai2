@@ -79,36 +79,27 @@ st.markdown("""
 content_data = {
     labels[0]: {
         'images': [
-            "https://via.placeholder.com/300?text=Label1_Image1",
-            "https://via.placeholder.com/300?text=Label1_Image2",
-            "https://via.placeholder.com/300?text=Label1_Image3"
+            "https://www.google.com/imgres?q=%EB%8B%A8%EC%97%B4%EC%9D%B4%20%EC%9E%98%EB%90%98%EB%8A%94%20%EC%A7%91%20%EC%97%B4%ED%99%94%EC%83%81&imgurl=https%3A%2F%2Fmblogthumb-phinf.pstatic.net%2FMjAxOTEyMDFfMjg0%2FMDAxNTc1MjA1OTE0MjE3.bSJsEw_Rp2lBng7WOlZVNQ2vnlmawcnJXHeS8hZPOjsg.pY0xN-RscLAJmDg3bXnws_sDb-b07pCYCAcKWekbfysg.JPEG.jeffrey001%2FK-002.jpg%3Ftype%3Dw800&imgrefurl=https%3A%2F%2Fblog.naver.com%2Fjeffrey001%2F221724064842%3FviewType%3Dpc&docid=dXRk6JAiuuM6XM&tbnid=tzsNtSCGYvj58M&vet=12ahUKEwio5dzpj6qKAxX7sFYBHRP8AGsQM3oECBUQAA..i&w=500&h=380&hcb=2&ved=2ahUKEwio5dzpj6qKAxX7sFYBHRP8AGsQM3oECBUQAA"
         ],
         'videos': [
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
-            "https://www.youtube.com/watch?v=2Vv-BfVoq4g",
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ"
+            "https://youtu.be/kuu4GhDoggM?feature=shared"
+            
         ],
         'texts': [
-            "Label 1 물냉면 은 맛있지",
-            "Label 1 관련 두 번째 텍스트 내용입니다.",
-            "Label 1 관련 세 번째 텍스트 내용입니다."
+            "Label 1 단열을 높이는 방법은 열이 빠져나가기 쉬운 외벽과 지붕, 창문을 수시로 점검하는 것이다."
         ]
     },
     labels[1]: {
         'images': [
-            "https://via.placeholder.com/300?text=Label2_Image1",
-            "https://via.placeholder.com/300?text=Label2_Image2",
-            "https://via.placeholder.com/300?text=Label2_Image3"
+            "https://www.google.com/imgres?q=%EB%8B%A8%EC%97%B4%EC%9D%B4%20%EC%9E%98%EB%90%98%EB%8A%94%20%EC%A7%91%20%EC%97%B4%ED%99%94%EC%83%81&imgurl=https%3A%2F%2Fmblogthumb-phinf.pstatic.net%2FMjAxODAxMjJfMjgz%2FMDAxNTE2NTczMjI5ODk1.pr3_m4NeQz7Ss0mrYP_SDcIZM-diA7rfyGxxEz6b8cEg.Kzsfk_8pn-3kYgZp3Lhjcs1vWcRYS9d-zZjp74Qd8Lwg.JPEG.jeffrey001%2F%25EC%25B9%25A8%25EC%258B%25A42.jpg%3Ftype%3Dw420&imgrefurl=http%3A%2F%2Fblog.naver.com%2Fjeffrey001%2F221190392378&docid=icl3rqBBTqQRgM&tbnid=ZncAZsH3thYQ8M&vet=12ahUKEwiS3PLfkKqKAxUe5DQHHVY6H8w4ChAzegQIRRAA..i&w=420&h=315&hcb=2&ved=2ahUKEwiS3PLfkKqKAxUe5DQHHVY6H8w4ChAzegQIRRAA",
+            
         ],
         'videos': [
-            "https://www.youtube.com/watch?v=2Vv-BfVoq4g",
-            "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
-            "https://www.youtube.com/watch?v=2Vv-BfVoq4g"
+           "https://youtu.be/nPMtCuNaEqE?feature=shared"
         ],
         'texts': [
-            "Label 2 삼겹살도 맛있어",
-            "Label 2 관련 두 번째 텍스트 내용입니다.",
-            "Label 2 관련 세 번째 텍스트 내용입니다."
+            "Label 2 최근에는 가정집에 이중창을 설치하여 공기층을 만들어 단열을 높이는 건축양상을 확인할 수 있다."
+            
         ]
     }
    
